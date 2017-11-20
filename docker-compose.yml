@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  php71:
+    container_name: php71_container
+    image: php:7.1-cli-alpine
+    tty: true
+    volumes:
+      - .:/sample-php7
+  php56:
+    container_name: php56_container
+    image: php:5.6-cli-alpine
+    tty: true
+    volumes:
+      - .:/sample-php7
