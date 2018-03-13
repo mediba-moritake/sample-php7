@@ -1,7 +1,8 @@
 <?php
 // スカラー型宣言
 
-// デフォルトのモード
+declare(strict_types=1);
+
 function sumOfInts(int ...$ints)
 {
     var_dump($ints);

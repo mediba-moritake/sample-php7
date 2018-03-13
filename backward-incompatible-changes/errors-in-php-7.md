@@ -16,7 +16,7 @@
 ## PHP 7 での内部エラー
 
 - 大半の PHP 内部エラーは、Error 例外としてスローされる
-- catch ブロックでマッチしない場合、set_exception_handler() で設定した例外ハンドラが呼ばれる
+- catch ブロックでマッチしない場合、[set_exception_handler()](http://php.net/manual/ja/function.set-exception-handler.php) で設定した例外ハンドラが呼ばれる
 - これもない場合、今までの fatal error に変換される
 
 ## Error の階層
