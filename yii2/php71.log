@@ -1,0 +1,52 @@
+2018-03-16 09:14:32 [-][-][-][error][application] Exception: test in /sample-php7/yii2/basic/commands/SampleController.php:34
+Stack trace:
+#0 [internal function]: app\commands\SampleController->actionIndex()
+#1 /sample-php7/yii2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /sample-php7/yii2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /sample-php7/yii2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#4 /sample-php7/yii2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#5 /sample-php7/yii2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('sample', Array)
+#6 /sample-php7/yii2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('sample', Array)
+#7 /sample-php7/yii2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /sample-php7/yii2/basic/yii(20): yii\base\Application->run()
+#9 {main}
+2018-03-16 09:14:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOSTNAME' => '109a6516f145'
+    'SHLVL' => '1'
+    'OLDPWD' => '/root'
+    'HOME' => '/root'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_MD5' => ''
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_VERSION' => '7.1.15'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.1.15.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.1.15.tar.xz/from/this/mirror'
+    'TERM' => 'xterm'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/sample-php7'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev dpkg 		file 		g++ 		gcc 		libc-dev 		make 		pkgconf 		re2c'
+    'PHP_SHA256' => '0e17192fb43532e4ebaa190ecec9c7e59deea7dadb7dab67b19c2081a68bd817'
+    'PHP_SELF' => 'yii2/basic/yii'
+    'SCRIPT_NAME' => 'yii2/basic/yii'
+    'SCRIPT_FILENAME' => 'yii2/basic/yii'
+    'PATH_TRANSLATED' => 'yii2/basic/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1521191671.8528
+    'REQUEST_TIME' => 1521191671
+    'argv' => [
+        0 => 'yii2/basic/yii'
+        1 => 'sample'
+    ]
+    'argc' => 2
+]
