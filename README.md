@@ -36,10 +36,12 @@ $ docker-compose exec php56 /sample-php7/yii2/basic/yii sample
 ## Amazon ElastiCache Cluster Client
 
 - [AWS ElastiCache ノードの自動検出 (Memcached)](https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/AutoDiscovery.html)
-- [PHP7.0 の Amazon ElastiCache Cluster Client をダウンロード](https://elasticache-downloads.s3.amazonaws.com/ClusterClient/PHP-7.0/latest-64bit)
-- [PHP5.6 の Amazon ElastiCache Cluster Client をダウンロード](https://elasticache-downloads.s3.amazonaws.com/ClusterClient/PHP-5.6/latest-64bit)
-
-
+    - [PHP7.0 の Amazon ElastiCache Cluster Client をダウンロード](https://elasticache-downloads.s3.amazonaws.com/ClusterClient/PHP-7.0/latest-64bit)
+    - [PHP5.6 の Amazon ElastiCache Cluster Client をダウンロード](https://elasticache-downloads.s3.amazonaws.com/ClusterClient/PHP-5.6/latest-64bit)
+- awslabs
+    - [aws-elasticache-cluster-client-libmemcached](https://github.com/awslabs/aws-elasticache-cluster-client-libmemcached)
+    - [aws-elasticache-cluster-client-memcached-for-php](https://github.com/awslabs/aws-elasticache-cluster-client-memcached-for-php)
+        - [Missing support for PHP7.1](https://github.com/awslabs/aws-elasticache-cluster-client-memcached-for-php/issues/11)
 
 # 環境構築手順
 
